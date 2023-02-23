@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1920px;
+  height: 736px;
+  background: rgb(6, 12, 23);
+  background: radial-gradient(circle, rgba(6, 12, 23, 1) 0%, rgba(80, 12, 233, 1) 100%);
+}
+/* =========================Menu Left Side========================= */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+}
+
+.menu-left-side {
+  display: flex;
+  align-items: center;
+  width: 950px;
+  position: relative;
+  left: 0;
+  gap: 20px;
+}
+
+.menu-left-side h3 {
+  background: radial-gradient(287.75% 1055.2% at 17.22% 50%, #ED1D90 0%, #E61D8B 0%, #A11D59 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 16px;
+  font-family: 'Tilt Neon';
+}
+
+.menu-left-side h4 {
+  color: #fff;
+  font-family: 'Tilt Neon';
+  font-size: 16px;
+}
+
+.menu-left-side h1 {
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 22px;
+}
+
+/* =========================Menu Right Side========================= */
+.menu-right-side {
+  width: 950px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 0;
+  gap: 40px;
+  height: 59.47px;
+}
+
+.menu-right-side a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Tilt Neon';
+  font-size: 16px;
+}
+
+
+.menu-right-side button {
+  width: 95px;
+  height: 40px;
+  padding: 9px 18px;
+  gap: 10px;
+  background: radial-gradient(287.75% 1055.2% at 17.22% 50%, #ED1D90 0%, #E61D8B 0%, #A11D59 100%);
+  box-shadow: 4px 6px 24px rgba(237, 29, 144, 0.08);
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-family: 'Tilt Neon';
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ==================== Card ==================== */
+
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 386px;
+  margin-top: 100px;
+  gap: 80px;
+}
+
+.card {
+  width: 514px;
+  height: 386px;
+  background: linear-gradient(128.88deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 116.34%);
+  box-shadow: 10px -34px 150px 1px rgba(22, 28, 62, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 8px;
+}
+
+/* ========================= Payment Description ========================= */
+.payment-description{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 240px;
+}
+
+.payment-description h1{
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 48px;
+}
+
+.payment-description h6{
+  margin-left: -10px;
+  margin-top: -15px;
+  color: #fff;
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+}
+
+.payment-description button{
+  padding: 9px 18px;
+  gap: 10px;
+  width: 130px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 4px 6px 24px rgba(255, 255, 255, 0.08);
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  color: #161C3E;
+  font-size: 16px;
+  font-family: 'Tilt Neon';
+  left: -175px;
+  cursor: pointer;
+}
+/* ========================= Transfer Block ========================= */
+.transfer_block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  height: 174px;
+}
+
+.transfer_block h2{
+  font-family: 'Tilt Neon';
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.transfer_block h4{
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.transfer_block button{
+  width: 132px;
+  height: 40px;
+  background-color: rgba(255,255,255,0);
+  border: 1px solid #E61D8B;
+  padding: 9px 18px;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* ========================= Integration Block ========================= */
+.integration_block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 520px;
+}
+/* ================= Left Block ================= */
+.integrattion-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 330px;
+}
+
+.integration-left h1{
+  font-family: 'Tilt Neon';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.integration-left h3{
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.integration-left ul{
+  position: relative;
+  left: -25px;
+}
+
+.integration-left p{
+  font-family: 'Tilt Neon';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.integration-left button{
+  width: 156px;
+  height: 40px;
+  background-color: rgba(255,255,255,0);
+  border: 1px solid #E61D8B;
+  border-radius: 8px;
+  color: #E61D8B;
+  font-family: 'Tilt Neon';
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ================= Right Block ================= */
+.integration-right{
+  height: 340px;
+  width: 340px;
+}
+/* ================= Background Block ================= */
+.integration-background{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 1150px;
+  top: 1075px;
+  background: radial-gradient(139.38% 66.18% at 50% 52.79%, #6EB1BD 0%, rgba(48, 59, 193, 0.3) 100%);
+  border-radius: 50%;
+}
+
+.integration-background img{
+  position: absolute;
+  left: -85px;
+  top: -200px;
+}
+
+
+
+/* =========================== Footer =========================== */
+footer{
+  width: 1920px;
+  height: 800px;
+}
