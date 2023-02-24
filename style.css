@@ -8,9 +8,10 @@ body {
 header {
   width: 1920px;
   height: 736px;
-  background: rgb(6, 12, 23);
-  background: radial-gradient(circle, rgba(6, 12, 23, 1) 0%, rgba(80, 12, 233, 1) 100%);
+  background: rgb(3, 9, 133);
+  background: linear-gradient(90deg, rgba(3, 9, 133, 1) 0%, rgba(4, 106, 241, 1) 100%);
 }
+
 /* =========================Menu Left Side========================= */
 .menu {
   display: flex;
@@ -85,7 +86,7 @@ header {
 
 /* ==================== Card ==================== */
 
-.body{
+.body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +105,7 @@ header {
 }
 
 /* ========================= Payment Description ========================= */
-.payment-description{
+.payment-description {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -112,13 +113,13 @@ header {
   height: 240px;
 }
 
-.payment-description h1{
+.payment-description h1 {
   font-family: 'Tilt Warp', cursive;
   color: white;
   font-size: 48px;
 }
 
-.payment-description h6{
+.payment-description h6 {
   margin-left: -10px;
   margin-top: -15px;
   color: #fff;
@@ -126,7 +127,7 @@ header {
   font-size: 18px;
 }
 
-.payment-description button{
+.payment-description button {
   padding: 9px 18px;
   gap: 10px;
   width: 130px;
@@ -142,8 +143,9 @@ header {
   left: -175px;
   cursor: pointer;
 }
+
 /* ========================= Transfer Block ========================= */
-.transfer_block{
+.transfer_block {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +154,7 @@ header {
   height: 174px;
 }
 
-.transfer_block h2{
+.transfer_block h2 {
   font-family: 'Tilt Neon';
   font-size: 36px;
   line-height: 40px;
@@ -160,7 +162,7 @@ header {
   text-align: center;
 }
 
-.transfer_block h4{
+.transfer_block h4 {
   font-family: 'Tilt Neon';
   font-size: 18px;
   font-weight: 400;
@@ -170,25 +172,27 @@ header {
   margin-top: -15px;
 }
 
-.transfer_block button{
+.transfer_block button {
   width: 132px;
   height: 40px;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   border: 1px solid #E61D8B;
   padding: 9px 18px;
   gap: 10px;
   border-radius: 8px;
   cursor: pointer;
 }
+
 /* ========================= Integration Block ========================= */
-.integration_block{
+.integration_block {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 520px;
 }
+
 /* ================= Left Block ================= */
-.integrattion-left{
+.integrattion-left {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,35 +200,36 @@ header {
   height: 330px;
 }
 
-.integration-left h1{
+.integration-left h1 {
   font-family: 'Tilt Neon';
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
 }
 
-.integration-left h3{
+.integration-left h3 {
   font-family: 'Tilt Neon';
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
 }
 
-.integration-left ul{
+.integration-left ul {
   position: relative;
   left: -25px;
 }
 
-.integration-left p{
+.integration-left p {
   font-family: 'Tilt Neon';
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
 }
-.integration-left button{
+
+.integration-left button {
   width: 156px;
   height: 40px;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
   border: 1px solid #E61D8B;
   border-radius: 8px;
   color: #E61D8B;
@@ -235,12 +240,13 @@ header {
 }
 
 /* ================= Right Block ================= */
-.integration-right{
+.integration-right {
   height: 340px;
   width: 340px;
 }
+
 /* ================= Background Block ================= */
-.integration-background{
+.integration-background {
   position: absolute;
   width: 300px;
   height: 300px;
@@ -250,16 +256,181 @@ header {
   border-radius: 50%;
 }
 
-.integration-background img{
+.integration-background img {
   position: absolute;
   left: -85px;
   top: -200px;
 }
 
+/* =========================== Why we block =========================== */
+.why-head {
+  width: 1920px;
+  height: 500px;
+  background: rgb(3, 9, 133);
+  background: linear-gradient(90deg, rgba(3, 9, 133, 1) 0%, rgba(4, 106, 241, 1) 100%);
+}
 
+.why {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 460px;
+  gap: 40px;
+  background: rgb(3, 9, 133);
+  background: linear-gradient(90deg, rgba(3, 9, 133, 1) 0%, rgba(4, 106, 241, 1) 100%);
+}
+
+.why-head hr {
+  position: relative;
+  top: -100px;
+  left: -20px;
+  height: 0px;
+  width: 1440px;
+  opacity: 0.4;
+  border: 1px solid linear-gradient(90deg, #DEF5FF -45.97%, #67B9C7 7.28%, #303BC1 366.94%);
+}
+
+/* === First Div === */
+.first-div,
+.second-div,
+.third-div,
+.fourth-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 166px;
+}
+
+.first-div h1 {
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 36px;
+}
+
+.first-div h3 {
+  margin-top: -12px;
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+
+.first-div button {
+  height: 40px;
+  width: 190px;
+  border-radius: 8px;
+  padding: 9px 18px 9px 18px;
+  background-color: #fff;
+  border: none;
+  color: dark blue;
+  font-family: 'Tilt Neon';
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ====== Second Div ====== */
+.second-div h1 {
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 22px;
+}
+
+.second-div h3 {
+  margin-top: -12px;
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+
+/* ====== Third Div ====== */
+.third-div h1 {
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 22px;
+}
+
+.third-div h3 {
+  margin-top: -12px;
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+
+/* ====== Fourth Div ====== */
+.fourth-div h1 {
+  font-family: 'Tilt Warp', cursive;
+  color: white;
+  font-size: 22px;
+}
+
+.fourth-div h3 {
+  margin-top: -12px;
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+}
+
+/* ===================== Crypto com ===================== */
+.crypto-com {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  position: relative;
+  left: -75px;
+}
+
+.crypto-com img {
+  position: relative;
+  top: -50px;
+}
+
+/* =========================== Start Block =========================== */
+.start_block {
+  height: 149px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.start_block h3 {
+  font-family: 'Tilt Neon';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.start_block h1 {
+  font-family: 'Tilt Neon';
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  margin-top: -12px;
+}
+
+.start_block button {
+  height: 40px;
+  width: 132px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  border: 1px solid #E61D8B;
+  padding: 9px 18px 9px 18px;
+  margin-top: -12px;
+  cursor: pointer;
+}
 
 /* =========================== Footer =========================== */
-footer{
+footer {
   width: 1920px;
   height: 800px;
 }
