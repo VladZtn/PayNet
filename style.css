@@ -8,8 +8,8 @@ body {
 header {
   width: 1920px;
   height: 736px;
-  background: rgb(3, 9, 133);
-  background: linear-gradient(90deg, rgba(3, 9, 133, 1) 0%, rgba(4, 106, 241, 1) 100%);
+  background: rgb(3,9,133);
+  background: linear-gradient(90deg, rgba(3,9,133,1) 0%, rgba(9,64,138,1) 100%);
 }
 
 /* =========================Menu Left Side========================= */
@@ -276,8 +276,8 @@ header {
   justify-content: center;
   height: 460px;
   gap: 40px;
-  background: rgb(3, 9, 133);
-  background: linear-gradient(90deg, rgba(3, 9, 133, 1) 0%, rgba(4, 106, 241, 1) 100%);
+  background: rgb(3,9,133);
+  background: linear-gradient(90deg, rgba(3,9,133,1) 0%, rgba(9,64,138,1) 100%);
 }
 
 .why-head hr {
@@ -398,6 +398,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -428,9 +429,88 @@ header {
   margin-top: -12px;
   cursor: pointer;
 }
+/* =========================== Before Footer =========================== */
+.before-footer_block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 624px;
+  gap: 40px;
+  background: rgb(3,9,133);
+  background: linear-gradient(90deg, rgba(3,9,133,1) 0%, rgba(9,64,138,1) 100%);
+}
 
-/* =========================== Footer =========================== */
-footer {
-  width: 1920px;
-  height: 800px;
+.footer-text h1{
+  font-family: 'Tilt Neon';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.footer-text h3{
+  font-family: 'Tilt Neon';
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.footer-form{
+  height: 512px;
+  width: 464px;
+  background: linear-gradient(128.88deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 116.34%);
+  box-shadow: 10px -34px 150px 1px rgba(22, 28, 62, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 12px;
+}
+
+.footer-form form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 512px;
+  gap: 20px;
+}
+
+.footer-form input{
+  width: 400px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+}
+
+.footer-form input::placeholder{
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Tilt Neon';
+  position: relative;
+  left: 5px;
+}
+
+.footer-form button{
+  width: 116px;
+  height: 40px;
+  background: radial-gradient(287.75% 1055.2% at 17.22% 50%, #ED1D90 0%, #E61D8B 0%, #A11D59 100%);
+  box-shadow: 4px 6px 24px rgba(237, 29, 144, 0.08);
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-family: 'Tilt Neon';
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#message-inp{
+  width: 400px;
+  height: 100px;
+}
+
+#message-inp::placeholder{
+  position: relative;
+  top: -40px;
+  left: 5px;
 }
